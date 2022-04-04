@@ -1,12 +1,13 @@
-# fly.toml file generated for testingdocker on 2022-04-04T13:06:13-04:00
+# fly.toml file generated for dockertesting1 on 2022-04-04T14:25:22-04:00
 
-app = "testingdocker"
+app = "dockertesting1"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
 [env]
+  PORT = "8080"
 
 [experimental]
   allowed_public_ports = []
