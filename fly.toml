@@ -1,6 +1,6 @@
-# fly.toml file generated for dockertesting1 on 2022-04-04T14:25:22-04:00
+# fly.toml file generated for snowy-feather-3501 on 2022-04-15T11:29:29-04:00
 
-app = "dockertesting1"
+app = "snowy-feather-3501"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
