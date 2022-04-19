@@ -31,6 +31,8 @@ COPY .env .
 
 COPY medusa-config.js .
 
+COPY ./data/seed.json .
+
 RUN apt-get update
 
 RUN apt-get install -y python
