@@ -1,5 +1,5 @@
 #!/bin/bash
-medusa seed -f ./data/seed.json
+medusa seed -f ./seed.json
 
 #medusa migrations run
 
